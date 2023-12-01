@@ -1,6 +1,6 @@
 # Segmentation of ICH and drain following Minimally Invasive Surgery
 
-Follow up CT after minimally invasive surgery for acute intracerebral hemorrhage (ICH) is a common indication for CT-scans. ICH volume is of prognostic and therapeutic importance. Manual volumetry is a time consuming task. ABC/2 method is prone to inaccuracies. Aim of this model is to segment ICH and the drain, allowing volumetry of the ICH.
+Follow up CT after minimally invasive surgery for acute intracerebral hemorrhage (ICH) is a common indication for CT-scans. ICH volume is of prognostic and therapeutic importance. However, manual volumetry is a cumbersome task and the ABC/2 method is prone to inaccuracies. Aim of this model is to segment ICH and the drain, allowing automated volumetry of the ICH following minimally invasive surgery.
 
 We developed a CNN-based model for segmentation of ICH and the drain. 
 
