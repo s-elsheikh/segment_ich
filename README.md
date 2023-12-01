@@ -16,4 +16,5 @@ conda activate segment_ich
 python segment.py
 ```
 
-
+License
+Please see LICENSE for information of the license and uses.
