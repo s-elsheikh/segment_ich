@@ -13,7 +13,9 @@ Elsheikh, S., Elbaz, A., Rau, A. et al. Accuracy of automated segmentation and v
 ## Description of scripts
 ### segment.py:
 1. expects a non-contrast CT in NIfTI format.
-2. produces prediction.nii.gz. A 4D NIfTI object with two 3D 1-mm isotropic NIfTI volumes, indicating the probability of each voxel belonging to ICH/drain or the background.
+2. Default input is `s_002.nii`, located in the same folder as the script. 
+3. Default output is `prediction.nii.gz`. A 4D NIfTI object with two 3D 1-mm isotropic NIfTI volumes, indicating the probability of each voxel belonging to ICH/drain or the background.
+
  
 ## Recreating Environment
 The last line in the yaml file (prefix) need to be changed to the local path, where the environment should be setup. Default location for Miniconda3: `C:\Users\your_user_name\Miniconda3\envs\segment_ich`. The choice is yours!!
