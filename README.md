@@ -4,6 +4,12 @@ Follow up CT after minimally invasive surgery for acute intracerebral hemorrhage
 
 We developed a CNN-based model for segmentation of ICH and the drain. 
 
+Complete description and validation in: [Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch‑based convolutional neural network in a small dataset](https://rdcu.be/dyUGM)
+
+Elsheikh, S., Elbaz, A., Rau, A. et al. Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch-based convolutional neural network in a small dataset. Neuroradiology (2024). https://doi.org/10.1007/s00234-024-03311-4
+
+
+
 ## Description of scripts
 ### segment.py:
 1. expects a non-contrast CT in NIfTI format.
