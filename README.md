@@ -4,10 +4,18 @@ Follow up CT after minimally invasive surgery for acute intracerebral hemorrhage
 
 We developed a CNN-based model for segmentation of ICH and the drain. 
 
+Complete description and validation in: [Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch‑based convolutional neural network in a small dataset](https://rdcu.be/dyUGM)
+
+Elsheikh, S., Elbaz, A., Rau, A. et al. Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch-based convolutional neural network in a small dataset. Neuroradiology (2024). https://doi.org/10.1007/s00234-024-03311-4
+
+
+
 ## Description of scripts
 ### segment.py:
 1. expects a non-contrast CT in NIfTI format.
-2. produces prediction.nii.gz. A 4D NIfTI object with two 3D 1-mm isotropic NIfTI volumes, indicating the probability of each voxel belonging to ICH/drain or the background.
+2. Default input is `s_002.nii`, located in the same folder as the script. 
+3. Default output is `prediction.nii.gz`. A 4D NIfTI object with two 3D 1-mm isotropic NIfTI volumes, indicating the probability of each voxel belonging to ICH/drain or the background.
+
  
 ## Recreating Environment
 
